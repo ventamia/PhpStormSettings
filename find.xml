@@ -1,0 +1,18 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="xx" />
+    <option name="defaultScopeName" value="xx" />
+    <option name="SEARCH_SCOPE" value="xx" />
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*.ts</mask>
+    <mask>*.php</mask>
+  </component>
+</application>

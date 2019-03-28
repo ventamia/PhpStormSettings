@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b83dd384-abe9-46c7-8e6c-19766e3038cb" name="vmdev1" url="http://vmdev1.ventamia.com">
+        <fileTransfer host="vmdev1.ventamia.com" port="22" privateKey="C:\Utils\id_rsa.ppk" rootFolder="/home/gabriel" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" maxConnections="50" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
