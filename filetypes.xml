@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="CDalSaleCustomerMx" type="PHP" />
+      <mapping pattern="trim-comm-log" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
