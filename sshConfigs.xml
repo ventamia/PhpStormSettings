@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="vmdev1.ventamia.com" id="ed9cd503-5e3d-4081-8c10-b8936fc0aa9e" keyPath="C:\Utils\id_rsa.ppk" port="22" customName="vmdev1" nameFormat="CUSTOM" username="gabriel" />
+    </configs>
+  </component>
+</application>
