@@ -2,7 +2,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="vmdev1.ventamia.com" id="ed9cd503-5e3d-4081-8c10-b8936fc0aa9e" keyPath="C:\Utils\id_rsa.ppk" port="22" customName="vmdev1" nameFormat="CUSTOM" username="gabriel" />
-      <sshConfig host="vmdev1.ventamia.com" id="5ab8b97c-25a8-4d2a-85dd-d219b570e3e7" keyPath="C:\Utils\id_rsa.ppk" port="22" customName="vmdev1" nameFormat="CUSTOM" username="gabriel" />
+      <sshConfig host="vmdev1.ventamia.com" id="9cce97fd-ab0c-4107-a3be-f83074725953" keyPath="C:\Utils\id_rsa.ppk" port="22" customName="vmdev1" nameFormat="CUSTOM" username="gabriel" />
     </configs>
   </component>
 </application>
