@@ -2,12 +2,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="b83dd384-abe9-46c7-8e6c-19766e3038cb" name="vmdev1" url="http://vmdev1.ventamia.com">
-        <fileTransfer host="vmdev1.ventamia.com" port="22" privateKey="C:\Utils\id_rsa.ppk" rootFolder="/home/gabriel" accessType="SFTP" keyPair="true">
+        <fileTransfer rootFolder="/home/gabriel" accessType="SFTP" host="vmdev1.ventamia.com" port="22" sshConfigId="ed9cd503-5e3d-4081-8c10-b8936fc0aa9e" sshConfig="vmdev1" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" maxConnections="50" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
+      </webServer>
+      <webServer id="2b34b60f-33ae-4f97-af34-852bf7ed2deb" name="test" url="http://localhost:4200/">
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
