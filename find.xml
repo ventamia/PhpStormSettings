@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\src\app\pages\agentgroup-list\components\agentgroup-list-dispenser-defaults-edit-form\agentgroup-list-dispenser-defaults-edit-form.component.ts'" />
-    <option name="defaultScopeName" value="File '...\src\app\pages\agentgroup-list\components\agentgroup-list-dispenser-defaults-edit-form\agentgroup-list-dispenser-defaults-edit-form.component.ts'" />
-    <option name="SEARCH_SCOPE" value="File '...\src\app\pages\agentgroup-list\components\agentgroup-list-dispenser-defaults-edit-form\agentgroup-list-dispenser-defaults-edit-form.component.ts'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -12,8 +13,8 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.ts</mask>
-    <mask>*.php</mask>
     <mask>*.scss</mask>
     <mask>*.html</mask>
+    <mask>*.php</mask>
   </component>
 </application>
