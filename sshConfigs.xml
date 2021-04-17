@@ -7,7 +7,7 @@
       <sshConfig host="vmdev1.ventamia.com" id="c544697c-387f-4f0c-9e2b-479056415beb" keyPath="C:\Utils\id_rsa.ppk" port="22" customName="vmdev1" nameFormat="CUSTOM" username="gabriel">
         <option name="customName" value="vmdev1" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="192.168.58.128" id="4609f5ae-0ff5-43e7-9ac7-f606bad5c00f" port="22" customName="localvm" nameFormat="CUSTOM" username="ubuntu">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:60}" host="192.168.58.129" id="4609f5ae-0ff5-43e7-9ac7-f606bad5c00f" port="22" customName="localvm" nameFormat="CUSTOM" username="ubuntu">
         <option name="customName" value="localvm" />
       </sshConfig>
     </configs>
