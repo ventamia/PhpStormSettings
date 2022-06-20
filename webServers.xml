@@ -4,7 +4,7 @@
       <webServer id="b83dd384-abe9-46c7-8e6c-19766e3038cb" name="vmdev1" url="http://vmdev1.ventamia.com">
         <fileTransfer rootFolder="/home/gabriel" accessType="SFTP" host="vmdev1.ventamia.com" port="22" sshConfigId="ed9cd503-5e3d-4081-8c10-b8936fc0aa9e" sshConfig="vmdev1" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" maxConnections="50" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
@@ -14,7 +14,7 @@
       <webServer id="de9990db-ea33-4e2d-83fe-ecd5cbe4b2d8" name="localvm" url="http://vmdev1.ventamia.com">
         <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.58.129" port="22" sshConfigId="4609f5ae-0ff5-43e7-9ac7-f606bad5c00f" sshConfig="localvm">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" maxConnections="50" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
