@@ -12,7 +12,14 @@
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="de9990db-ea33-4e2d-83fe-ecd5cbe4b2d8" name="localvm" url="http://vmdev1.ventamia.com">
-        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.58.129" port="22" sshConfigId="4609f5ae-0ff5-43e7-9ac7-f606bad5c00f" sshConfig="localvm">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.58.129" port="22" sshConfigId="4609f5ae-0ff5-43e7-9ac7-f606bad5c00f" sshConfig="localvm-192.168.58.129">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="42506082-ffb6-4409-b823-231eac711233" name="192.168.0.107">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="192.168.0.107" port="22" sshConfigId="04bf1de3-9a8d-45b9-bf4d-6bafe6cd86c7" sshConfig="localvm-192.168.0.107">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="60000" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
